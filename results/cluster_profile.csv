@@ -1,0 +1,4 @@
+demand_tier,n_atms,avg_daily_wd,p90_daily_wd,avg_daily_tx,cv_wd,avg_txn_amount,weekend_ratio,payday_uplift,peak_to_mean,fail_rate
+Low,81,95964.21,130032.81,29.58,0.28,3261.03,1.02,1.35,2.27,0.03
+Medium,114,197814.97,266196.68,61.28,0.27,3246.52,1.04,1.29,2.25,0.03
+High,105,406339.72,541890.15,121.58,0.27,3342.99,1.02,1.22,2.22,0.03

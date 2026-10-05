@@ -1,0 +1,8 @@
+location_type,Low,Medium,High
+Branch,2,26,44
+Highway,16,14,0
+Hospital,15,10,1
+Mall,0,7,28
+Residential,18,52,14
+Rural,30,1,0
+Transit_Hub,0,4,18

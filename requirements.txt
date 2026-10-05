@@ -1,0 +1,7 @@
+pyspark>=4.0
+pandas
+numpy
+matplotlib
+scikit-learn
+python-docx
+python-pptx

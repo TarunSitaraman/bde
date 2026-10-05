@@ -1,0 +1,122 @@
+{
+  "k_selection": {
+    "2": {
+      "wssse": 301.90543316677,
+      "silhouette": 0.7316571099613398
+    },
+    "3": {
+      "wssse": 164.7033997606353,
+      "silhouette": 0.669810531214347
+    },
+    "4": {
+      "wssse": 108.18612288490999,
+      "silhouette": 0.652548300688851
+    },
+    "5": {
+      "wssse": 73.24688900995655,
+      "silhouette": 0.6711485835940131
+    },
+    "6": {
+      "wssse": 54.19165898300052,
+      "silhouette": 0.6587345460721534
+    },
+    "7": {
+      "wssse": 43.93795370396955,
+      "silhouette": 0.6593653438831725
+    }
+  },
+  "algorithm_comparison_silhouette": {
+    "K-Means (k=3)": 0.669810531214347,
+    "Gaussian Mixture (k=3)": 0.39473147859393215
+  },
+  "profile": [
+    {
+      "demand_tier": "Low",
+      "n_atms": 81,
+      "avg_daily_wd": 95964.21,
+      "p90_daily_wd": 130032.81,
+      "avg_daily_tx": 29.58,
+      "cv_wd": 0.28,
+      "avg_txn_amount": 3261.03,
+      "weekend_ratio": 1.02,
+      "payday_uplift": 1.35,
+      "peak_to_mean": 2.27,
+      "fail_rate": 0.03
+    },
+    {
+      "demand_tier": "Medium",
+      "n_atms": 114,
+      "avg_daily_wd": 197814.97,
+      "p90_daily_wd": 266196.68,
+      "avg_daily_tx": 61.28,
+      "cv_wd": 0.27,
+      "avg_txn_amount": 3246.52,
+      "weekend_ratio": 1.04,
+      "payday_uplift": 1.29,
+      "peak_to_mean": 2.25,
+      "fail_rate": 0.03
+    },
+    {
+      "demand_tier": "High",
+      "n_atms": 105,
+      "avg_daily_wd": 406339.72,
+      "p90_daily_wd": 541890.15,
+      "avg_daily_tx": 121.58,
+      "cv_wd": 0.27,
+      "avg_txn_amount": 3342.99,
+      "weekend_ratio": 1.02,
+      "payday_uplift": 1.22,
+      "peak_to_mean": 2.22,
+      "fail_rate": 0.03
+    }
+  ],
+  "location_mix": [
+    {
+      "location_type": "Branch",
+      "Low": 2,
+      "Medium": 26,
+      "High": 44
+    },
+    {
+      "location_type": "Highway",
+      "Low": 16,
+      "Medium": 14,
+      "High": 0
+    },
+    {
+      "location_type": "Hospital",
+      "Low": 15,
+      "Medium": 10,
+      "High": 1
+    },
+    {
+      "location_type": "Mall",
+      "Low": 0,
+      "Medium": 7,
+      "High": 28
+    },
+    {
+      "location_type": "Residential",
+      "Low": 18,
+      "Medium": 52,
+      "High": 14
+    },
+    {
+      "location_type": "Rural",
+      "Low": 30,
+      "Medium": 1,
+      "High": 0
+    },
+    {
+      "location_type": "Transit_Hub",
+      "Low": 0,
+      "Medium": 4,
+      "High": 18
+    }
+  ],
+  "pca_explained_variance": [
+    0.9946729175412328,
+    0.0048520065771853835
+  ],
+  "n_atms": 300
+}
